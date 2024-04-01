@@ -1,0 +1,18 @@
+.filter-nav button {
+  background: none;
+  border: none;
+  color: #a5a4a4
+  outline: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+
+.filter-nav button.active {
+  color: var(--blue);
+}

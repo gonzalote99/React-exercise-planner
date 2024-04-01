@@ -1,0 +1,60 @@
+.exercise {
+  margin: 20px auto;
+  padding: 5px 5px;
+  background: white;
+  border-radius: 10px;
+  border-left: 10px solid var(--red);
+  border-right: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.exercise:hover {
+  box-shadow: -3px 3px 5px 3px #a09f9f;
+}
+h3 {
+  cursor: pointer;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exercise.complete {
+  border-left: 10px solid var(--green);
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6%;
+}
+.buttons button,
+a {
+  font: 400 16px/1.5 exo, ubuntu, 'segoe ui', helvetica, arial, sans-serif;
+  color: white;
+  background: var(--blue);
+  border: 0;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.buttons button:hover,
+a:hover,
+button:active,
+a:active {
+  background: #028ea7;
+}
+h4 {
+  text-transform: capitalize;
+  margin: 2px auto;
+  transform: skew(-21deg);
+  background: var(--golden);
+}
+p {
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 80%;
+}
